@@ -2,17 +2,15 @@
 
 int main(void)
 {
-    int ag = 1;
-    int y;
+    int i;
 
-    while (ag != 0)
+    for (i = 0; i < 5; i++)
     {
-        y = 3;
-        ag = 0;
-    }
+        int temp = 1;
 
-    y = 4;
-    printf("y=%d\n", y);
+        printf("temp = %d\n", temp);
+        temp++;
+    }
 
     return 0;
 }
